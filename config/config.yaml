@@ -1,0 +1,15 @@
+# this is the folder name.
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  # this url for downloading the data
+  source_URL: https://github.com/entbappy/Branching-tutorial/raw/master/summarizer-data.zip
+  # this is where we will store the data.
+  local_data_file: artifacts/data_ingestion/data.zip
+  # this is where we will unzip our data.
+  unzip_dir: artifacts/data_ingestion
+
+
+
